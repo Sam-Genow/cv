@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "age": "21",
+  "competences": {
+    "java": {
+      "value": "10%"
+    },
+    "CISCO": {
+      "value": "10%"
+    },
+    "linux": {
+      "value": "10%"
+    }
+  },
+  "qualites": [
+    "respectueux",
+    "persévérant"
+  ],
+  "experiences": [
+    "Boulanger",
+    "AdservioLyon"
+  ]
+}
