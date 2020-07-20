@@ -1,23 +1,75 @@
 {
-  "name": "test",
+  "name": "test TEST",
   "age": "21",
+  "email": "toto@tata.com",
+  "phone": "065554845",
+
+  "domaine": "Informatique",
+
   "competences": {
-    "java": {
-      "value": "10%"
+    "competence1": {
+      "nom": "java",
+      "value": "10"
     },
-    "CISCO": {
-      "value": "10%"
+    "competence2": {
+      "nom": "Linux",
+      "value": "10"
     },
-    "linux": {
-      "value": "10%"
+    "competence3": {
+      "nom": "C++",
+      "value": "10"
+    },
+    "competence4": {
+      "nom": "Réseaux",
+      "value": "75"
     }
   },
-  "qualites": [
-    "respectueux",
-    "persévérant"
-  ],
-  "experiences": [
-    "Boulanger",
-    "AdservioLyon"
-  ]
+
+  "langues": {
+    "langue1": {
+      "nom": "Anglais",
+      "value_writing": "60",
+      "value_reading": "65",
+      "value_speaking": "70",
+      "drapeau": ""
+    },
+    "langue2": {
+      "nom": "Cambodgien",
+      "value_writing": "1",
+      "value_reading": "2",
+      "value_speaking": "65",
+      "drapeau": ""
+    }
+  },
+
+  "qualites": {
+    "respectueux" : {
+      "description" : "Je suis très respectueux !"
+    },
+    "Persévérant" : {
+      "description" : "Je travaille pour acheter ce dont j'ai envie !"
+    }
+  },
+  "experiences": {
+    "item1": {
+      "nom" : "Boulanger",
+      "description": "j'ai travaillé là-bas !",
+      "date_deb" : "01/01/0000",
+      "date_fin" : "01/01/1111",
+      "missions" : {
+        "mission1": "mission 1",
+        "mission2": "mission 2"
+      }
+    },
+    "item2": {
+      "nom" : "AdservioLyon",
+      "description": "j'ai travaillé là-bas 2 !",
+      "date_deb" : "01/01/0000",
+      "date_fin" : "01/01/1111",
+      "missions" : {
+        "mission1": "mission 1",
+        "mission2": "mission 2"
+      }
+    }
+  }
 }
