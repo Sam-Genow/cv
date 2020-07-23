@@ -43,10 +43,12 @@
   },
 
   "qualites": {
-    "respectueux" : {
+    "qualite1" : {
+      "nom": "Respectueux",
       "description" : "Je suis très respectueux !"
     },
-    "Persévérant" : {
+    "qualite2" : {
+      "nom": "Persévérant",
       "description" : "Je travaille pour acheter ce dont j'ai envie !"
     }
   },
@@ -70,6 +72,20 @@
         "mission1": "mission 1",
         "mission2": "mission 2"
       }
+    }
+  },
+  "parcours": {
+    "item1": {
+      "nom" : "Lycée Ampère",
+      "description": "j'ai étudié là-bas !",
+      "date_deb" : "01/01/0000",
+      "date_fin" : "01/01/1111"
+    },
+    "item2": {
+      "nom" : "Université Claude Bernard",
+      "description": "j'ai travaillé là-bas 2 !",
+      "date_deb" : "01/01/0000",
+      "date_fin" : "01/01/1111"
     }
   }
 }
